@@ -44,7 +44,7 @@ def trim_video_to_last_part(video_path, output_dir):
 
 def process_videos_in_directory(directory):
     """Processes each video in the directory, trimming the last part of each."""
-    output_dir = os.path.join(directory, '../new-video')
+    output_dir = os.path.join(directory, '../extra-length-videos')
     os.makedirs(output_dir, exist_ok=True)
     
     for filename in os.listdir(directory):
