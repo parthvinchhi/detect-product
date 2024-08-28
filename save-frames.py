@@ -43,8 +43,8 @@ def process_videos_in_directory(directory, output_directory):
             save_last_frame(video_path, output_path)
 
 # Define the directory containing videos and the output directory
-video_directory = 'a-side'
-output_directory = 'a-side-frames'
+video_directory = 'b-side'
+output_directory = 'b-side-frames'
 
 # Process videos
 process_videos_in_directory(video_directory, output_directory)
