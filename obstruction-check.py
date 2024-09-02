@@ -82,10 +82,9 @@ def detect_obstruction(video_path, polygon_coords):
 
 # Coordinates of the green line polygon
 polygon_coords = [
-    [210, 386], [505, 390], [626, 477], [593, 479],
-    [509, 407], [209, 402], [120, 478], [90, 479]
+    [1086, 175], [1078, 449], [792, 718], [743, 715], [1055, 441], [1060, 191], [847, 6], [900, 8]
 ]
 
 # Replace 'your_video.mp4' with the path to your video file
-video_path = 'b-side/b1.mp4'
+video_path = 'a-side/a1.mp4'
 detect_obstruction(video_path, polygon_coords)
