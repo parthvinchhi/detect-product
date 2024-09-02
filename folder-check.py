@@ -3,14 +3,14 @@ import numpy as np
 import os
 
 # Define the green line using the provided coordinates
-# green_line_coords = np.array([[210, 386], [505, 390], [626, 477], [593, 479], 
-#                               [509, 407], [209, 402], [120, 478], [90, 479]], dtype=np.int32)
+green_line_coords = np.array([[210, 386], [505, 390], [626, 477], [593, 479], 
+                              [509, 407], [209, 402], [120, 478], [90, 479]], dtype=np.int32)
 
 # green_line_coords = np.array([[1243, 91], [1225, 649], [1050, 719], [982, 719], 
 #                               [1186, 647], [1206, 106], [597, 6], [785, 6]], dtype=np.int32)
 
-green_line_coords = np.array([[1086, 175], [1078, 449], [792, 718], [743, 715], 
-                              [1055, 441], [1060, 191], [847, 6], [900, 8]], dtype=np.int32)
+# green_line_coords = np.array([[1086, 175], [1078, 449], [792, 718], [743, 715], 
+#                               [1055, 441], [1060, 191], [847, 6], [900, 8]], dtype=np.int32)
 
 
 def line_intersect(p1, p2, p3, p4):
@@ -106,7 +106,8 @@ def process_video(video_path):
     cap.release()
 
 # Directory containing video files
-video_directory = 'a-side'  # Replace with the path to your directory
+# video_directory = 'a-side'  # Replace with the path to your directory
+video_directory = 'b-side'  # Replace with the path to your directory
 
 # Process each video in the directory
 for filename in os.listdir(video_directory):
